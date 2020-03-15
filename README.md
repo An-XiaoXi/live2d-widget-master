@@ -41,7 +41,7 @@ Font Awesome 4.7.0 is required for this plugin. You can add this to `<head>`:
 
 将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/MrLi/live2d-widget-master@v1.1/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/MrLi12/live2d-widget-master@v1.1/autoload.js"></script>
 ```
 如果网站启用了 PJAX，由于看板娘不必每页刷新，因此要注意将相关脚本放到 PJAX 刷新区域之外。
 
