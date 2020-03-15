@@ -17,7 +17,7 @@ Add Live2D widget to web page. Compatible with PJAX.
 
 ## 示例 Demo
 
-在[米米的博客](https://zhangshuqiao.org)的左下角可查看效果。
+在[#的博客](#)的左下角可查看效果。
 
 ![](assets/screenshot-1.png)
 ![](assets/screenshot-2.png)
@@ -25,8 +25,8 @@ Add Live2D widget to web page. Compatible with PJAX.
 
 这个仓库中也提供了两个 Demo，即
 
-- [demo1.html](https://mi.js.org/live2d-widget/demo/demo1.html) ，展现基础效果
-- [demo2.html](https://mi.js.org/live2d-widget/demo/demo2.html) ，仿 NPM 的登陆界面
+- [demo1.html](https://mi.js.org/live2d-widget-master/demo/demo1.html) ，展现基础效果
+- [demo2.html](https://mi.js.org/live2d-widget-master/demo/demo2.html) ，仿 NPM 的登陆界面
 
 ## 依赖 Dependencies
 
@@ -41,7 +41,7 @@ Font Awesome 4.7.0 is required for this plugin. You can add this to `<head>`:
 
 将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/MrLi/live2d-widget-master@v1.1/autoload.js"></script>
 ```
 如果网站启用了 PJAX，由于看板娘不必每页刷新，因此要注意将相关脚本放到 PJAX 刷新区域之外。
 
@@ -55,7 +55,7 @@ Font Awesome 4.7.0 is required for this plugin. You can add this to `<head>`:
 
 要自定义有关内容，可以把这个仓库 Fork 一份，然后进行修改。这时，使用方法对应地变为
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/username/live2d-widget@latest/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/username/live2d-widget-master@v1.1/autoload.js"></script>
 ```
 将 `username` 替换为你的 GitHub 用户名即可。
 
@@ -67,7 +67,7 @@ Font Awesome 4.7.0 is required for this plugin. You can add this to `<head>`:
   ```bash
   cd /path/to/your/webroot
   # Clone this repository
-  git clone https://github.com/stevenjoezhang/live2d-widget.git
+  git clone https://github.com/MrLi12/live2d-widget-master.git
   ```
 - 如果你的主机无法用 `ssh` 连接（例如一般的虚拟主机），请选择 `Download ZIP`，然后通过 `ftp` 等方式上传到主机上，再解压到网站的目录下。
 - 如果你是通过 Hexo 等工具部署的静态博客，请在本地开命令行进入博客目录，例如 `source` 下与 `_posts` 同级的目录，然后再执行前述的 `git clone` 命令。重新部署博客时，相关文件就会自动上传到对应的路径下。
